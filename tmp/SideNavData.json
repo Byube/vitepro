@@ -1,0 +1,291 @@
+{
+    "menu": [
+        {
+            "label": "일반",
+            "items": [
+                {
+                    "label": "대시보드",
+                    "icon": "pi pi-fw pi-th-large",
+                    "to": {"name": "Home"}
+                }
+            ]
+        },
+        {
+            "label": "매출",
+            "items": [
+                {
+                    "label": "매출관리",
+                    "icon": "pi pi-fw pi-chart-line",
+                    "items": [
+                        {
+                            "label": "Table",
+                            "to": "/",
+                            "visible":true
+                        },
+                        {
+                            "label": "회원현황",
+                            "to":"/member_detail"
+                        },
+                        {
+                            "label": "ChartDemo",
+                            "to": "/chart"
+                        },
+                        {
+                            "label": "Dialog",
+                            "to":"/dialog"
+                        },
+                        {
+                            "label": "Calendar",
+                            "to":"/input"
+                        }
+                    ]
+                },
+                {
+                    "label": "설정",
+                    "icon": "pi pi-cog",
+                    "items": [
+                        {
+                            "label": "입금계좌관리",
+                            "to": "/table"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "수수료",
+            "icon": "pi pi-fw pi-money-bill",
+            "items": [
+                {
+                    "label": "성과급관리",
+                    "icon": "pi pi-fw pi-money-bill",
+                    "items": [
+                        {
+                            "label": "성과급설정"
+                        },
+                        {
+                            "label": "성과급내역"
+                        }
+                    ]
+                },
+                {
+                    "label": "마감",
+                    "icon" :"pi pi-fw pi-database",
+                    "items": [
+                        {
+                            "label": "일마감"
+                        },
+                        {
+                            "label": "월마감"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "보고서",
+            "items": [
+                {
+                    "label": "매출",
+                    "icon" : "pi pi-fw pi-dollar",
+                    "items": [
+                        {
+                            "label": "일일 매출 보고"
+                        }
+                    ]
+                },
+                {
+                    "label": "근태",
+                    "icon" : "pi pi-fw pi-briefcase",
+                    "items": [
+                        {
+                            "label": "직급별 근태 집계-영업직"
+                        },
+                        {
+                            "label": "직급별 근태 집계-내근직"
+                        },
+                        {
+                            "label": "지각현황-내근직"
+                        },
+                        {
+                            "label": "출/퇴근 미체크 현황-내근직"
+                        },
+                        {
+                            "label": "조기퇴근현황-내근직"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "인사",
+            "items": [
+                {
+                    "label": "영업사원",
+                    "icon" : "pi pi-fw pi-id-card",
+                    "items": [
+                        {
+                            "label": "직원목록"
+                        },
+                        {
+                            "label": "승진대상자 확인"
+                        },
+                        {
+                            "label": "일괄인사명령등록"
+                        },
+                        {
+                            "label": "인사명령 목록"
+                        },
+                        {
+                            "label": "퇴사자관리"
+                        }
+                    ]
+                },
+                {
+                    "label": "내근직원",
+                    "icon" : "pi pi-fw pi-id-card",
+                    "items": [
+                        {
+                            "label": "직원목록"
+                        },
+                        {
+                            "label": "승진대상자 확인"
+                        },
+                        {
+                            "label": "일괄인사명령등록"
+                        },
+                        {
+                            "label": "인사명령 목록"
+                        },
+                        {
+                            "label": "퇴사자관리"
+                        }
+                    ]
+                },
+                {
+                    "label": "부서관리",
+                    "icon" :"pi pi-fw pi-desktop",
+                    "items": [
+                        {
+                            "label": "매출파트그룹"
+                        },
+                        {
+                            "label": "부서 정보 관리"
+                        },
+                        {
+                            "label": "매출파트그룹2"
+                        }
+                    ]
+                },
+                {
+                    "label": "급여관리",
+                    "icon" :"pi pi-fw pi-money-bill",
+                    "items": [
+                        {
+                            "label": "급여 설정"
+                        },
+                        {
+                            "label": "급여 정산"
+                        },
+                        {
+                            "label": "급여 이력"
+                        },
+                        {
+                            "label": "데이터 검증"
+                        }
+                    ]
+                },
+                {
+                    "label": "근태관리",
+                    "icon" :"pi pi-fw pi-clock",
+                    "items": [
+                        {
+                            "label": "휴가관리"
+                        },
+                        {
+                            "label": "근태관리"
+                        },
+                        {
+                            "label": "근태현황"
+                        },
+                        {
+                            "label": "공통휴일관리"
+                        },
+                        {
+                            "label": "근태관리계획직원목록"
+                        }
+                    ]
+                },
+                {
+                    "label": "연차관리",
+                    "icon" :"pi pi-fw pi-calendar",
+                    "items": [
+                        {
+                            "label": "직원별 연차현황 목록"
+                        },
+                        {
+                            "label": "연차/휴가 사용내역 목록"
+                        },
+                        {
+                            "label": "연차추가/공계 내역목록"
+                        }
+                    ]
+                },
+                {
+                    "label": "설정",
+                    "icon" :"pi pi-cog",
+                    "items": [
+                        {
+                            "label": "직원활성화목록"
+                        },
+                        {
+                            "label": "인사공통코드관리"
+                        },
+                        {
+                            "label": "일자별인사명령목록"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "교육"
+        },
+        {
+            "label": "영업",
+            "items": [
+                {
+                    "label": "전자계약",
+                    "icon" :"pi pi-fw pi-book",
+                    "items": [
+                        {
+                            "label": "전자계약서식설정"
+                        },
+                        {
+                            "label": "전자결제코드매핑"
+                        },
+                        {
+                            "label": "전자계약 동기화 검증"
+                        },
+                        {
+                            "label": "전자계약목록"
+                        },
+                        {
+                            "label": "전자계약작성"
+                        },
+                        {
+                            "label": "전자계약최종승인"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "게시판"
+        },
+        {
+            "label": "시스템",
+            "to": "/"
+        }
+    ]
+}
